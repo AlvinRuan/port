@@ -28,11 +28,29 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  width: 16rem;
+}
+
+.nav-link {
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar li a {
+  color: white !important;
+  margin-right: 1%;
+  margin-left: 30px;
+  padding-right: 1%;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0;
 }
