@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../12345.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -18,7 +20,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
           </button>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,17 +32,17 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link
+                  About Me
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link1
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link2
+                  Contact
                 </a>
               </li>
             </ul>
